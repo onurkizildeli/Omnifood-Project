@@ -1,2 +1,2 @@
 # Omnifood-Project
-A course project for self education
+A course project for self education in process
