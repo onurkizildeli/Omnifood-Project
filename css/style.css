@@ -8,6 +8,7 @@
 	background-color: #fdf2e9;
 	height: 9.6rem;
 	padding: 0 4.8rem;
+	position: relative;
 }
 
 .logo {
@@ -53,6 +54,29 @@
 	background-color: #e67e22;
 }
 
+/*MOBILE NAV ICON*/
+.btn-mobile-nav {
+	border: none;
+	background: none;
+	cursor: pointer;
+	display: none;
+}
+
+
+
+.icon-mobile-nav {
+	height: 4.8rem;
+	width: 4.8rem;
+	color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+	display: none;
+}
+
+
+
+
 /***************************************/
 /*HERO SECTION*/
 /***************************************/
@@ -61,8 +85,6 @@
 	background-color: #fdf2e9;
 	padding: 4.8rem 0 9.6rem;
 }
-
-
 
 .hero {
 	margin: 0 auto;
@@ -550,12 +572,10 @@
 	font-family: inherit;
 }
 
-
 .cta *:focus {
-  outline: none;
-  box-shadow: 0 0 0 8px #fdf2e981;
+	outline: none;
+	box-shadow: 0 0 0 8px #fdf2e981;
 }
-
 
 /***************************************/
 /*FOOTER SECTION*/
@@ -574,7 +594,6 @@
 	list-style: none;
 	display: flex;
 	gap: 2.4rem;
-	
 }
 
 .social-icon {
@@ -635,6 +654,3 @@
 .footer-link:active {
 	color: #555;
 }
-
-
-
